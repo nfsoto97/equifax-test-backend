@@ -1,3 +1,5 @@
+IMPORTANTE EJECUTAR DDLS, YA QUE SI NO SE INGRESAN USUARIOS Y PLACES NO SE PODRA PROBAR EL CODIGO
+
 Versiones:
 
 Spring Boot:3.1.0
@@ -25,6 +27,8 @@ DDL Base de datos Postgres10:
 NOMBRE DE DB:equifax
 
 PUERTO:5432
+
+USUARIO Y CONTRASEÑA: Importante configurar application.properties con sus respectivos postgres.user y postgres.password
 
 CREACION DB:
 
