@@ -70,17 +70,6 @@ public class SecurityConfig{
         return authProvider;
     }
 
-    // @Bean
-    // CorsConfigurationSource corsConfigurationSource() {
-    //     CorsConfiguration configuration = new CorsConfiguration();
-    //     configuration.setAllowedOrigins(Arrays.asList("*"));
-    //     configuration.setAllowedMethods(Arrays.asList("POST", "PUT", "GET", "OPTIONS", "DELETE", "PATCH")); // or simply "*"
-    //     configuration.setAllowedHeaders(Arrays.asList("*"));
-    //     UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
-    //     source.registerCorsConfiguration("/**", configuration);
-    //     return source;
-    // }
-
     @Bean
 	public PasswordEncoder passwordEncoder() {
 		return new BCryptPasswordEncoder();

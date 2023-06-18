@@ -28,4 +28,8 @@ public class PlaceService {
         return detailPlaceDTOList;
     }
 
+    public Place savePlace(Place place){
+        return placeRepository.save(place);
+    }
+
 }
